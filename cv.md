@@ -36,7 +36,7 @@
     }
     ```  
 ### Work experience
-* [RS School CV](https://igrain-le-fay.github.io/rsschool-cv/)
+* [RS School CV](https://igrain-le-fay.github.io/rsschool-cv/cv)
 ### Education
 * Bachelor of Arts, major in linguistics
 ### Languages
