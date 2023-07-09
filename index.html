@@ -19,5 +19,44 @@ content="width=device-width, initial-scale=1.0">
   <li>basic Python</li>
   <li>basic JS</li>
 </ul>
+<h3>Code examples</h3>
+<ul>
+  <li><b>Python</b></li>
+  <br>
+  Knight's move. <i>Initial position is indicated by the coordinates (a1;b1), destination is indicated by the coordinates (a2;b2)</i>
+  <pre>
+  <code>
+  a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+      if a2 == a1 + 1 and (b2 == b1 - 2 or b2 == b1 + 2):
+        print('YES')
+      elif a2 == a1 + 2 and (b2 == b1 - 1 or b2 == b1 + 1):
+        print('YES')
+      elif a2 == a1 - 1 and (b2 == b1 - 2 or b2 == b1 + 2):
+        print('YES')
+      elif a2 == a1 - 2 and (b2 == b1 - 1 or b2 == b1 + 1):
+        print('YES')
+      else:
+        print('NO')
+  </code>
+  </pre>
+  <li><b>JS</b></li>
+  <br>
+  Exam results calculation. <i>If the student got 88 points and more - excellent, from 40 to 87 - good, less than 40 - the student failed.</i>
+  <pre>
+  <code>
+  let score = prompt("How many points?", ""); 
+    if (score >= 88) {
+    alert("excellent");
+    } else if (score <= 39) {
+    alert("failed");
+    } else {
+    alert("good");
+    }
+  </code>
+  </pre>
+</ul>
+<h3>Work experience</h3>
+<h3>Education</h3>
+<h3>Languages</h3>
 </body>
 </html>
