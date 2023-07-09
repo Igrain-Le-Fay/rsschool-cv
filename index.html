@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Albina Galikhanova CV</title>
+</head>
+<body>
+<h1>Albina Galikhanova</h1>
+<h2>Junior Frontend Developer</h2>
+<h3>Contact details</h3>
+<p>Email: <a href="mailto:ga.al.ju@gmail.com">ga.al.ju@gmail.com</a> - <i>preferable means of communication</i>
+<br>Discord: igrain-le-fay
+<br>Telegram: @AlbinaGalikhanova</p>
+<h3>Skills</h3>
+<ul>
+  <li>basic Python</li>
+  <li>basic JS</li>
+</ul>
+<h3>Code examples</h3>
+<ul>
+  <li><b>Python</b></li>
+  <br>
+  Knight's move. <i>Initial position is indicated by the coordinates (a1;b1), destination is indicated by the coordinates (a2;b2)</i>
+  <pre>
+  <code>
+  a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+      if a2 == a1 + 1 and (b2 == b1 - 2 or b2 == b1 + 2):
+        print('YES')
+      elif a2 == a1 + 2 and (b2 == b1 - 1 or b2 == b1 + 1):
+        print('YES')
+      elif a2 == a1 - 1 and (b2 == b1 - 2 or b2 == b1 + 2):
+        print('YES')
+      elif a2 == a1 - 2 and (b2 == b1 - 1 or b2 == b1 + 1):
+        print('YES')
+      else:
+        print('NO')
+  </code>
+  </pre>
+  <li><b>JS</b></li>
+  <br>
+  Exam results calculation. <i>If the student got 88 points and more - excellent, from 40 to 87 - good, less than 40 - the student failed.</i>
+  <pre>
+  <code>
+  let score = prompt("How many points?", "");
+    if (score >= 88) {
+    alert("excellent");
+    } else if (score <= 39) {
+    alert("failed");
+    } else {
+    alert("good");
+    }
+  </code>
+  </pre>
+</ul>
+<h3>Work experience</h3>
+<ul>
+  <li><a href="igrain-le-fay.github.io/rsschool-cv/">RS School CV</a></li>
+</ul>
+<h3>Education</h3>
+<ul>
+  <li>Bachelor of Arts, major in linguistics</li>
+</ul>
+<h3>Languages</h3>
+<ul>
+  <li><b>English</b> - Proficient</li>
+  <ul>
+    <li>Certificate of Proficiency in English</li>
+    <li>5 years of working experience as a teacher and translator of English</li>
+  </ul>
+  <li><b>Russian</b> - Native</li>
+  <li><b>German</b> - Intermediate</li>
+  <ul>
+    <li>onSET Deutsch Zertifikat</li>
+  </ul>
+  <li><b>Belarusian</b> - Intermediate</li>
+</ul>
+</body>
+</html>
