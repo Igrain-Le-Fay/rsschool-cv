@@ -2,7 +2,7 @@
 ## Junior Frontend Developer
 ### Contact details
 * **Email**: ga.al.ju@gmail.com - *preferable means of communication*
-* **Discord**: igrain_le_fay
+* **Discord**: @igrain-le-fay
 * **Telegram**: @AlbinaGalikhanova
 
 ### Skills
